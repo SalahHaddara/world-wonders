@@ -19,3 +19,7 @@ main div {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+body {
+    background-color: lightgray;
+}

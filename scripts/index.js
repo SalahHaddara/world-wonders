@@ -19,7 +19,7 @@ function displayWonders(wondersData) {
 
         wonderElement.innerHTML =
             '<h2>' + wonder.name + '</h2>' +
-            '<img src="' + wonder.links.images[0] + '" alt="">';
+            '<img src="' + wonder.links.images[0] + '" alt="" loading="lazy">';
 
         wonderElement.addEventListener('click', () => {
             window.location.href = `views/wonder.html?name=${encodeURIComponent(wonder.name)}`;
