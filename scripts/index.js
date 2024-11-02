@@ -12,8 +12,6 @@ axios.get('https://www.world-wonders-api.org/v0/wonders')
 function displayWonders(wondersData) {
     wondersData.forEach((wonder) => {
         const wonderElement = document.createElement('div');
-        const wonderLink = document.createElement('a');
-
 
         wonderElement.innerHTML =
             '<h2>' + wonder.name + '</h2>' +
@@ -24,6 +22,5 @@ function displayWonders(wondersData) {
         })
 
         wonders.appendChild(wonderElement);
-
     })
 }
