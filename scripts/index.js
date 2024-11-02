@@ -6,6 +6,7 @@ axios.get('https://www.world-wonders-api.org/v0/wonders')
 
         const wondersData = response.data;
         localStorage.setItem('wondersData', JSON.stringify(wondersData));
+
         displayWonders(wondersData);
     })
     .catch(error => {

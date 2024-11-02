@@ -11,7 +11,7 @@ function displayWonderDetails(wonderDetails) {
     const detailsElement = document.getElementById("wonder-details");
 
     detailsElement.innerHTML = `
-        <h2>${wonderDetails.name}</h2>
+        <h1>${wonderDetails.name}</h1>
         <p>${wonderDetails.summary}</p>
         <p><strong>Location:</strong> ${wonderDetails.location}</p>
         <p><strong>Built Year:</strong> ${wonderDetails.build_year}</p>
