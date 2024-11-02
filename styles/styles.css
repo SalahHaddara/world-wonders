@@ -7,7 +7,7 @@ body {
 main {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -27,5 +27,6 @@ img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
